@@ -1,32 +1,9 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+#include<iostream.h>
+ int main()
+ {
+int age; 	
+cout<<"Enter your age: \n";
+cin>>age; 
+(age >= 18)?cout<<"Yes, you are eligible for voting!\n":cout<<"No, you are not eligible for voting!\n"; 	
+return 0;
+}
